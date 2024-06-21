@@ -1,4 +1,4 @@
 # VHRTrees
-This study aims to emphasize the importance of historical land cover maps and introduce a new benchmark dataset derived from very high-resolution historical Hexagon (KH-9) reconnaissance satellite images for use in deep learning-based image segmentation tasks. Our HexaLCSeg dataset comprises high-resolution monochromatic Hexagon images from the 1970s and 1980s covering Turkish and Bulgarian territories, encompassing a large geographic area
+This study aims to emphasize the importance of ....
+![GPihn99bEAAg78T](https://github.com/sulenurtopgul/VHRTrees/assets/109470455/a3c4b4ee-5724-4f9b-9384-bff9a12f0777)
 
-The dataset, related source code, and pre-trained models are available below.
