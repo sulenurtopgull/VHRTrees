@@ -13,18 +13,17 @@ The imagery required for the dataset has been obtained from Google Earth. We hav
 
 Experiments were conducted on Kaggle P100, Colab A100, and NVIDIA Quadro P6000 GPUs. We conducted an initial experiment in which we tested the impact of different network sizes, such as 416x416, 640x640 and 960x960 on the performance of different YOLO models. Due to more than sixty experiments and computational constraints, we fixed the batch size at 16 for the YOLOv5, YOLOv7, and YOLOv8 models, while for YOLOv9, the batch size was set to 8. We have applied various augmentation techniques such as random horizontal flip, rotation, and mosaic, which significantly improved the training results. All experiments were conducted on powerful GPUs and executed concurrently, resulting in similar durations. The evaluation results of the top-performing ten experiments are presented in the table below.
 
-| Model No | Network | Optimizer | Model | Batch Size | Epoch | F-1 Score | Precision | Recall | mAP50 | mAP50-95 |
-|:--------:|:-------:|:---------:|:-----:|:----------:|:-----:|:---------:|:---------:|:------:|:-----:|:--------:|
-| Model 1  |         |           |       |            |       |           |           |        |       |          |
-| Model 2  |         |           |       |            |       |           |           |        |       |          |
-| Model 3  |         |           |       |            |       |           |           |        |       |          |
-| Model 4  |         |           |       |            |       |           |           |        |       |          |
-| Model 5  |         |           |       |            |       |           |           |        |       |          |
-| Model 6  |         |           |       |            |       |           |           |        |       |          |
-| Model 7  |         |           |       |            |       |           |           |        |       |          |
-| Model 8  |         |           |       |            |       |           |           |        |       |          |
-| Model 9  |         |           |       |            |       |           |           |        |       |          |
-| Model 10 |         |           |       |            |       |           |           |        |       |          |
+| Model No | Network | Optimizer |     Model     | Batch Size | Epoch | F-1 Score | Precision | Recall | mAP50 | mAP50-95 |
+|:--------:|:-------:|:---------:|:-------------:|:----------:|:-----:|:---------:|:---------:|:------:|:-----:|:--------:|
+| Model 1  | 960x960 |    Auto   |    YOLOv8m    |     16     |   50  |   0.932   |   0.932   |  0.932 | 0.934 |   0.608  |
+| Model 2  | 960x960 |    SGD    |    YOLOv8m    |     16     |   50  |   0.915   |   0.942   |  0.890 | 0.916 |   0.608  |
+| Model 3  | 640x640 |    SGD    | YOLOv9-gelan-c|      8     |   45  |   0.928   |   0.924   |  0.932 | 0.936 |   0.594  |
+| Model 4  | 640x640 |    SGD    | YOLOv9-gelan-c|      8     |   45  |   0.924   |   0.922   |  0.927 | 0.534 |   0.584  |
+| Model 5  | 960x960 |    SGD    |    YOLOv5m    |     16     |   50  |   0.929   |   0.932   |  0.926 | 0.934 |   0.569  |
+| Model 6  | 960x960 |    SGD    |    YOLOv5s    |     16     |   50  |   0.931   |   0.930   |  0.933 | 0.933 |   0.567  |
+| Model 7  | 960x960 |    SGD    |   YOLOv7-X    |     16     |   50  |   0.930   |   0.923   |  0.937 | 0.912 |   0.552  |
+| Model 8  | 960x960 |    SGD    |    YOLOv7     |     16     |   50  |   0.929   |   0.930   |  0.928 | 0.908 |   0.549  |
+
 
 ***The pre-trained models and weights can be found [here](https://github.com/sulenurtopgul/VHRTrees/assets/109470455/47e94be5-c3af-4770-b5b8-cb09330a6605).*** 
 
