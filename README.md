@@ -24,6 +24,6 @@ The imagery required for the dataset has been obtained from Google Earth. We hav
 | Model 9  |         |           |       |            |       |           |           |        |       |          |
 | Model 10 |         |           |       |            |       |           |           |        |       |          |
 
-***The pre-trained models and weights can be found <u> here </u>.*** 
+***The pre-trained models and weights can be found [here](https://github.com/sulenurtopgul/VHRTrees/assets/109470455/47e94be5-c3af-4770-b5b8-cb09330a6605).*** 
 
 
