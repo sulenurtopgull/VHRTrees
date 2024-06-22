@@ -24,6 +24,16 @@ Experiments were conducted on Kaggle P100, Colab A100, and NVIDIA Quadro P6000 G
 |     Exp-7     | 960x960 |    SGD    |   YOLOv7-X    |     16     |   50  |   0.930   |   0.923   |  0.937 | 0.912 |   0.552  |
 |     Exp-8     | 960x960 |    SGD    |    YOLOv7     |     16     |   50  |   0.929   |   0.930   |  0.928 | 0.908 |   0.549  |
 
+| Experiment No | Network | Optimizer |     Model     | Batch Size | Epoch | F-1 Score | Precision | Recall | mAP50 | mAP50-95 |        |
+|:-------------:|:-------:|:---------:|:-------------:|:----------:|:-----:|:---------:|:---------:|:------:|:-----:|:--------:|--------|
+|     Exp-1     | 960x960 |    Auto   |    YOLOv8m    |     16     |   50  |   0.932   |   0.932   |  0.932 | 0.934 |   0.608  |    [link](https://drive.google.com/file/d/1S_HZrucIlw5P8sZEMu8hXI2V5cv_v2Gy/view?usp=drive_link)    |
+|     Exp-2     | 960x960 |    SGD    |    YOLOv8m    |     16     |   50  |   0.915   |   0.942   |  0.890 | 0.916 |   0.608  |        |
+|     Exp-3     | 640x640 |    SGD    | YOLOv9-gelan-c|      8     |   45  |   0.928   |   0.924   |  0.932 | 0.936 |   0.594  |        |
+|     Exp-4     | 640x640 |    SGD    | YOLOv9-gelan-c|      8     |   45  |   0.924   |   0.922   |  0.927 | 0.534 |   0.584  |        |
+|     Exp-5     | 960x960 |    SGD    |    YOLOv5m    |     16     |   50  |   0.929   |   0.932   |  0.926 | 0.934 |   0.569  |        |
+|     Exp-6     | 960x960 |    SGD    |    YOLOv5s    |     16     |   50  |   0.931   |   0.930   |  0.933 | 0.933 |   0.567  |        |
+|     Exp-7     | 960x960 |    SGD    |   YOLOv7-X    |     16     |   50  |   0.930   |   0.923   |  0.937 | 0.912 |   0.552  |        |
+|     Exp-8     | 960x960 |    SGD    |    YOLOv7     |     16     |   50  |   0.929   |   0.930   |  0.928 | 0.908 |   0.549  |        |
 
 
 ***The pre-trained models and weights can be found [here](https://github.com/sulenurtopgul/VHRTrees/assets/109470455/47e94be5-c3af-4770-b5b8-cb09330a6605).*** 
