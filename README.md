@@ -26,4 +26,10 @@ The imagery required for the dataset has been obtained from Google Earth. We hav
 
 ***The pre-trained models and weights can be found [here](https://github.com/sulenurtopgul/VHRTrees/assets/109470455/47e94be5-c3af-4770-b5b8-cb09330a6605).*** 
 
+# Visual Results
+
+![figure3_visual_results](https://github.com/sulenurtopgul/VHRTrees/assets/109470455/c30a47ae-6d23-488a-8e38-98199cff8862)
+
+
+
 
