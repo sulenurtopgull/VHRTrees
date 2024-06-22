@@ -13,8 +13,6 @@ The imagery required for the dataset has been obtained from Google Earth. We hav
 
 | Model No | Network | Optimizer | Model | Batch Size | Epoch | F-1 Score | Precision | Recall | mAP50 | mAP50-95 |
 |:--------:|:-------:|:---------:|:-----:|:----------:|:-----:|:---------:|:---------:|:------:|:-----:|:--------:|
-| Model No | Network | Optimizer | Model | Batch Size | Epoch | F-1 Score | Precision | Recall | mAP50 | mAP50-95 |
-|:--------:|:-------:|:---------:|:-----:|:----------:|:-----:|:---------:|:---------:|:------:|:-----:|:--------:|
 | Model 1  |         |           |       |            |       |           |           |        |       |          |
 | Model 2  |         |           |       |            |       |           |           |        |       |          |
 | Model 3  |         |           |       |            |       |           |           |        |       |          |
