@@ -26,7 +26,7 @@ Experiments were conducted on Kaggle P100, Colab A100, and NVIDIA Quadro P6000 G
 
 | Experiment No | Network | Optimizer |     Model     | Batch Size | Epoch | F-1 Score | Precision | Recall | mAP50 | mAP50-95 |        |
 |:-------------:|:-------:|:---------:|:-------------:|:----------:|:-----:|:---------:|:---------:|:------:|:-----:|:--------:|--------|
-|     Exp-1     | 960x960 |    Auto   |    YOLOv8m    |     16     |   50  |   0.932   |   0.932   |  0.932 | 0.934 |   0.608  |    [link](https://drive.google.com/file/d/1S_HZrucIlw5P8sZEMu8hXI2V5cv_v2Gy/view?usp=drive_link)    |
+|     Exp-1     | 960x960 |    Auto   |    YOLOv8m    |     16     |   50  |   0.932   |   0.932   |  0.932 | 0.934 |   0.608  |    [link](https://drive.google.com/file/d/1VDb1f1xGojYzDC9U-VFsa8lDuhRNSnDO/view?usp=drive_link)    |
 |     Exp-2     | 960x960 |    SGD    |    YOLOv8m    |     16     |   50  |   0.915   |   0.942   |  0.890 | 0.916 |   0.608  |        |
 |     Exp-3     | 640x640 |    SGD    | YOLOv9-gelan-c|      8     |   45  |   0.928   |   0.924   |  0.932 | 0.936 |   0.594  |        |
 |     Exp-4     | 640x640 |    SGD    | YOLOv9-gelan-c|      8     |   45  |   0.924   |   0.922   |  0.927 | 0.534 |   0.584  |        |
