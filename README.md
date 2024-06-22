@@ -24,5 +24,6 @@ The imagery required for the dataset has been obtained from Google Earth. We hav
 | Model 9  |         |           |       |            |       |           |           |        |       |          |
 | Model 10 |         |           |       |            |       |           |           |        |       |          |
 
+* **The pre-trained models and weights can be found <u>here</u>.** * 
 
 
