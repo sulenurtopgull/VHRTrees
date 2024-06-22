@@ -9,9 +9,16 @@ The imagery required for the dataset has been obtained from Google Earth. We hav
 
 ![sample_2_github1](https://github.com/sulenurtopgul/VHRTrees/assets/109470455/47e94be5-c3af-4770-b5b8-cb09330a6605)
 
-| Ürün     | Fiyat |
-|:--------:| -----:|
-| Mont     | 999   |
-| Ayakkabı | 399   |
-| Pantolon | 449   |
-| Gömlek   | 299   |
+| Model No | Network | Optimizer | Model | Batch Size | Epoch | F1 | Prec | Recall | mAP50 | mAP50-95 |
+|:--------:|:-------:|:---------:|:-----:|:----------:|:-----:|:--:|:----:|:------:|:-----:|:--------:|
+| Model 1  |         |           |       |            |       |    |      |        |       |          |
+| Model 2  |         |           |       |            |       |    |      |        |       |          |
+| Model 3  |         |           |       |            |       |    |      |        |       |          |
+| Model 4  |         |           |       |            |       |    |      |        |       |          |
+| Model 5  |         |           |       |            |       |    |      |        |       |          |
+| Model 6  |         |           |       |            |       |    |      |        |       |          |
+| Model 7  |         |           |       |            |       |    |      |        |       |          |
+| Model 8  |         |           |       |            |       |    |      |        |       |          |
+| Model 9  |         |           |       |            |       |    |      |        |       |          |
+| Model 10 |         |           |       |            |       |    |      |        |       |          |
+
