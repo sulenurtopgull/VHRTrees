@@ -26,7 +26,7 @@ Experiments were conducted on Kaggle P100, Colab A100, and NVIDIA Quadro P6000 G
 |     Exp-8     | 960x960 |    SGD    |    YOLOv7     |     16     |   50  |   0.929   |   0.930   |  0.928 | 0.908 |   0.549  | [Download](https://drive.google.com/file/d/18KWTWqiuOx4iMVdYarsWR4Bx7SKFYbtF/view?usp=drive_link) |
 
 
-***The pre-trained models and weights can be found [here](https://github.com/sulenurtopgul/VHRTrees/assets/109470455/47e94be5-c3af-4770-b5b8-cb09330a6605).*** 
+***The pre-trained models and weights can be found [here](https://drive.google.com/drive/folders/1C5d_mVsQbHwdyE05YpC9nS_ZAcbxIDXA?usp=drive_link).*** 
 
 # Visual Results
 
