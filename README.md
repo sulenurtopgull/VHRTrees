@@ -11,6 +11,8 @@ The imagery required for the dataset has been obtained from Google Earth. We hav
 
 # Models, Metric Results and Weights
 
+Experiments were conducted on Kaggle P100, Colab A100, and NVIDIA Quadro P6000 GPUs. We conducted an initial experiment in which we tested the impact of different network sizes, such as 416x416, 640x640 and 960x960 on the performance of different YOLO models. Additionally, due to the large number of experiments and computational constraints, we fixed the batch size at 16 for the YOLOv5, YOLOv7, and YOLOv8 models, while for YOLOv9, the batch size was set to 8. We have applied various augmentation techniques such as random horizontal flip, rotation, and mosaic, which significantly improved the training results. All experiments were conducted on powerful GPUs and executed concurrently, resulting in similar durations. The evaluation results are given in Table below.
+
 | Model No | Network | Optimizer | Model | Batch Size | Epoch | F-1 Score | Precision | Recall | mAP50 | mAP50-95 |
 |:--------:|:-------:|:---------:|:-----:|:----------:|:-----:|:---------:|:---------:|:------:|:-----:|:--------:|
 | Model 1  |         |           |       |            |       |           |           |        |       |          |
