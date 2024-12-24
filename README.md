@@ -34,7 +34,7 @@ Experiments were conducted on Kaggle P100, Colab A100, and NVIDIA Quadro P6000 G
 
 # Citation:
 Topgül, Ş. N., Sertel, E., Aksoy, S., Ünsalan, C., & Fransson, J. E. S. (2024). VHRTrees: A New Benchmark Dataset for Tree Detection in Satellite Imagery and Performance Evaluation with YOLO-based Models. Frontiers in Forests and Global Change, 7. https://doi.org/10.3389/ffgc.2024.1495544
-doi: 10.3389/ffgc.2024.1495544
+https://doi: 10.3389/ffgc.2024.1495544
 
 
 
